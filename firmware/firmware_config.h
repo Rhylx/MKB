@@ -4,20 +4,7 @@
 #include "avr_mapping.h"
 #include "keyboard_config.h"
 
-#if KEYBOARD_SIDE == LEFT
-#define BLE_PAIRS 1
-#define PERIPHERAL_COUNT 1
-#define MATRIX_SCAN 1
-#define SEND_KEYS 1
-#define DEVICE_NAME DEVICE_NAME_L
-#elif KEYBOARD_SIDE == RIGHT
-#define BLE_PAIRS 1
-#define PERIPHERAL_COUNT 1
-#define CENTRAL_COUNT 0
-#define MATRIX_SCAN 1
-#define SEND_KEYS 1
-#define DEVICE_NAME DEVICE_NAME_R
-#elif KEYBOARD_SIDE == MASTER
+#if KEYBOARD_SIDE == MASTER
 #define BLE_PAIRS 0
 #define BLE_HID 1
 #ifndef PERIPHERAL_COUNT
@@ -42,13 +29,7 @@
 //set default modes for the halves
 #ifndef KEYBOARD_MODE
 
-#if KEYBOARD_SIDE == LEFT
-#define KEYBOARD_MODE DEFAULT //LEFT defaults to central (DEFAULT)
-#elif KEYBOARD_SIDE == RIGHT
-#define KEYBOARD_MODE SLAVE //RIGHT defaults to peripheral (SLAVE)
-#elif KEYBOARD_SIDE == MASTER
 #define KEYBOARD_MODE MASTER //MASTER defaults to master (only one keyboard)
-#endif
 
 #endif /* ifndef KEYBOARD_MODE */
 

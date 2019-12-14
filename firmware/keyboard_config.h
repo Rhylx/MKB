@@ -11,7 +11,6 @@
 #define KEYBOARD_SIDE MASTER
 
 #define DEVICE_NAME_M                         "Leon"                          /**< Name of device. Will be included in the advertising data. */
-#endif
 
 #define DEVICE_MODEL                        "Leon"                          /**< Name of device. Will be included in the advertising data. */
 
