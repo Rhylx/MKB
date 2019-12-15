@@ -10,11 +10,11 @@
 */
 #define KEYBOARD_SIDE MASTER
 
-#define DEVICE_NAME_M                         "Leon"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_M                       "Paul"                          /**< Name of device. Will be included in the advertising data. */
 
-#define DEVICE_MODEL                        "Leon"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_MODEL                        "Paul"                          /**< Name of device. Will be included in the advertising data. */
 
-#define MANUFACTURER_NAME                   "SouthpawDesign"                      /**< Manufacturer. Will be passed to Device Information Service. */
+#define MANUFACTURER_NAME                   "Hahaha"                      /**< Manufacturer. Will be passed to Device Information Service. */
 
 // Set max power. Accepted values are: -40, -30, -20, -16, -12, -8, -4, 0, 4
 ///#define DEVICE_POWER 0

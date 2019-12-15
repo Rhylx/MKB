@@ -22,7 +22,7 @@ std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
         {KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,   KC_T,   KC_Y,   KC_U,    KC_I,     KC_O,   KC_P,     LAYER_2,},
         {LAYER_1, KC_A,    KC_S,    KC_D,    KC_F,   KC_G,   KC_DOT, KC_H,    KC_J,     KC_K,   KC_L,     KC_RSFT,},
         {KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,   KC_B,   KC_N,   KC_M,    KC_SLASH, KC_GRV,	KC_MINS,  KC_EQUAL},
-        {_______, _______, KC_LCTL, KC_ENT, KC_ESC, KC_SPC, KC_SPC, KC_BSPC, KC_LGUI,   KC_RALT ,_______, _______}
+        {_______, _______, KC_LCTL, KC_ENT, KC_ESC, KC_SPC, KC_SPC, KC_BSPC, KC_LGUI,   KC_LALT ,_______, _______}
     }};
 
 
@@ -48,10 +48,10 @@ LAYOUT 1 :
 
     uint32_t layer1[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP(
-    KC_TAB, KC_1,    KC_2,    KC_3,      KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,      LAYER_2,
-    LAYER_1,  KC_KP_1, KC_KP_2, KC_KP_8,   KC_KP_3, KC_UP,   KC_DOWN, KC_LBRC, KC_F24,  KC_KP_5, KC_KP_DOT, KC_RSFT,
-    KC_LSFT, _______, _______, KC_SCOLON, KC_PMNS, KC_LEFT, KC_RGHT, KC_COMM, KC_SLCK, KC_END,  KC_F19,    _______ ,
-    _______, _______, KC_LCTL, KC_LGUI,   KC_ESC,  KC_SPC,  KC_SPC,  KC_BSPC, KC_ENT,  KC_RALT, _______,   _______ );
+    KC_TAB,  KC_PMNS, KC_SCOLON, KC_KP_3, KC_7,   KC_8,   KC_9,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT,   LAYER_2,
+    LAYER_1, KC_KP_1, KC_KP_2,   KC_KP_8, KC_4,   KC_5,   KC_6,   KC_LBRC, KC_F24,  KC_KP_5, KC_KP_DOT, KC_RSFT,
+    KC_LSFT, _______, _______,   KC_0,    KC_1,   KC_2,   KC_3,   KC_COMM, KC_SLCK, KC_END,  KC_F19,    _______,
+    _______, _______, KC_LCTL,   KC_ENT, KC_ESC, KC_SPC, KC_SPC, KC_BSPC, KC_LGUI,  KC_LALT, _______,   _______ );
 
 /*
  LAYOUT 2:
@@ -72,10 +72,10 @@ LAYOUT 1 :
 
     uint32_t layer2[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP(
-    KC_TAB, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    LAYER_2,
-    LAYER_1,  KC_KP_7, KC_BSLS, KC_KP_8,  KC_KP_9, KC_UP,   KC_DOWN, KC_RBRC, KC_KP_0, KC_KP_6, KC_KP_DOT, KC_RSFT,
-    KC_LSFT, KC_KP_4, KC_PAST, KC_PPLS,   KC_PSLS, KC_LEFT, KC_RGHT, KC_PEQL, KC_QUOT, _______, _______, _______ ,
-    _______, _______, KC_LCTL, KC_LGUI, KC_ESC,  KC_SPC,  KC_SPC,  KC_BSPC, KC_ENT,  KC_RALT, _______, _______ );
+    KC_TAB,  KC_PSLS, KC_PPLS, KC_KP_9, KC_7,   KC_8,   KC_9,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT,   LAYER_2,
+    LAYER_1, KC_KP_7, KC_BSLS, KC_KP_8, KC_4,   KC_5,   KC_6,   KC_RBRC, KC_KP_0, KC_KP_6, KC_KP_DOT, KC_RSFT,
+    KC_LSFT, KC_PAST, KC_KP_4, KC_0,    KC_1,   KC_2,   KC_3,   KC_PEQL, KC_QUOT, _______, _______,   _______ ,
+    _______, _______, KC_LCTL, KC_ENT,  KC_ESC, KC_SPC, KC_SPC, KC_BSPC, KC_LGUI, KC_LALT, _______,   _______ );
 
     /*
      * add the other layers
