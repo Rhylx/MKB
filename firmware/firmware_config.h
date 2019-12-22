@@ -70,7 +70,7 @@
 // Battery Service definitions.
 
 #ifndef BLE_LIPO_MONITORING
-#define BLE_LIPO_MONITORING 0
+#define BLE_LIPO_MONITORING 1
 #endif
 
 
