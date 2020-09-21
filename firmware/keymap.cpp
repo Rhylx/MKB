@@ -72,7 +72,7 @@ LAYOUT 1 :
 
     uint32_t layer2[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP(
-    KC_TAB,  KC_PSLS, KC_PPLS, KC_KP_9, KC_KP_DOT, _______,  KC_QUOT, KC_PAST, _______, _______, _______,   LAYER_2,
+    KC_TAB,  KC_PSLS, KC_PPLS, KC_KP_9, KC_KP_6, _______,  KC_QUOT, KC_PAST, _______, _______, _______,   LAYER_2,
     KC_LSFT, KC_KP_7, KC_BSLS, KC_KP_8, KC_KP_0,   KC_RBRC, KC_PEQL, KC_KP_4, _______, _______, KC_KP_DOT, KC_RSFT,
     KC_LSFT, _______, _______, _______, _______,   _______, _______, _______, _______, _______, _______,   _______ ,
     _______, _______, KC_LCTL, KC_LGUI, KC_ESC,    KC_SPC,  KC_SPC,  KC_BSPC, KC_ENT,  KC_LALT, _______,   _______ );
